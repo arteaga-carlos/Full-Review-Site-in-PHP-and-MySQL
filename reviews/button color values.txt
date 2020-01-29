@@ -1,0 +1,25 @@
+values for S: and B: fields in illustrator
+
+regular: 50, 91
+	border: 57, 78
+	hover: 55, 85
+	inner-shadow: 51, 100
+	text-shadow: 42, 66
+
+orange: background: e8c774
+	border: c6a355
+	hover: d8b461
+	inner-shadow: ffd77d
+	text-shadow: a89262
+
+red: 	background: e87474
+	border: c65555
+	hover: d86161
+	inner-shadow: ff7d7d
+	text-shadow: a86262
+
+green: 	background: 74e87f
+	border: 55c660
+	hover: 61d86c
+	inner-shadow: 7dff89
+	text-shadow: 62a868

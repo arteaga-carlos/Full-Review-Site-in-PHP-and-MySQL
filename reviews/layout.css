@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* Main Layout */
+
+.nav-menu .button {
+	margin-top: 7px;
+	margin-left: 10px;
+	float: left; }
+.nav-menu .search {
+	margin-left: 10px;
+	width: 2.3em;
+	height: 2.1em;
+	background: #08aae5 url('search_glass_icon.png') no-repeat center;
+	-moz-box-shadow: inset 0px 1px 0px 0px #4fc6f2;
+  	-webkit-box-shadow: inset 0px 1px 0px 0px #4fc6f2;
+  	box-shadow: inset 0px 1px 0px 0px #4fc6f2; }
+	.search:hover {
+		-moz-box-shadow: inset 0px 1px 0px 0px #2cbff4;
+  		-webkit-box-shadow: inset 0px 1px 0px 0px #2cbff4;
+  		box-shadow: inset 0px 1px 0px 0px #2cbff4;
+		background-color: #0498ce; }
+		
+.box .column, .box .columns.content-right { text-align: right; }
+.box .column, .box .columns.content-left { text-align: left; }
+
+.field-search {
+	margin-top: 7px;
+	width: 12em;
+	height: 2.1em;
+	padding: 5px;
+	float: left;
+	border: 1px solid #c8c8c8;
+	border-radius: 3px;
+	outline-color: #73caea;
+	background-color: #fafafa; }
+	
+.box span.subheading { color: #6e6e6e; }
+	.subheading .small { font-size: 60%; }
+	
+.six.columns img { margin-top: 20px; }
+
+.top-rated li { margin-bottom: 15px; }
+.top-rated ul { margin-top: 15px; }
+	.title {
+		margin-top: 15px;
+		padding: 0.1em 0.2em;
+		display: block;
+		text-align: center;
+		color: white;
+		font-size: 150%;
+		background-color: #e87474;
+		border: 1px solid #c65555;
+		-moz-box-shadow: inset 0px 1px 0px 0px #ff7d7d;
+		-webkit-box-shadow: inset 0px 1px 0px 0px #ff7d7d;
+		box-shadow: inset 0px 1px 0px 0px #ff7d7d;
+		text-shadow: 0px 1px 0px #a86262; }
+		
+.article { width: 30em; }
+	.article ul { margin-top: 15px; }
+	.article li { padding: 20px 0px; }
+		.article li:hover { background-color: #f9f9f9; }
+	.article li a {
+		text-decoration: none;
+		font-size: 180%; }
+	.article-title {
+		font-size: 200%;
+		color: #525252;
+		border-bottom: 1px solid #D8D8D8; }
+	.article p {
+		padding-left: 10px;
+		font-size: 75%;
+		color: #b2b2b2; }
+	.article p a {
+		font-size: 100%;
+		color: #b2b2b2;
+		text-decoration: underline; }
+		.article p a:hover { text-decoration: none; }
+		
+.blue { color: #4ab5dc !important; }
+
+ul, li { list-style: none; }
+
+a { 
+	color: black;
+	font-size: 100%; }
+a:hover { text-decoration: none; }
+a:active { color: black; }
+a:visited { color: black; }
